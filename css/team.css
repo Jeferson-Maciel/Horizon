@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.a-dev {
+text-align: center;
+  padding: 120px 0px 60px 0px;
+  width: 100%;
+  display: block;
+  background-color: #F15025;
+ 
+}
+
+.cabecalho-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 124px;
+  color:#ffffff;
+}
+
+.cabecalho-titulo-preto {
+    color:#191919;
+}
+
+.cabecalho-titulo-laranja {
+    color:#ffffff;
+}
+
+.team-foto {
+    cursor: pointer;
+    width: 155px; 
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 60%;
+    transition: 100ms;
+}
+
+.team-foto:hover {
+    border: 4px solid rgb(0, 0, 0);
+}
+
+
+
+.team-nome {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+}
+
+.team-funcao {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #F15025;
+}
+
+.team-alinhamento {
+  display: grid;
+  background-color: #F15025;
+   
+}
+
+.team-participante-primeira-line {
+  text-align: center;
+    display:inline;
+    justify-content: center;
+}
+
+
+
+.team-participante-1 {
+    padding: 35px 160px 0px 160px;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.modal {
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.modal-content {
+    background-color: #F15025;
+    opacity: 10;
+    padding: 16px 24px;
+    width: 384px;
+    border-radius: 0.5rem;
+}
+
+span {
+    float: right;
+    width: 24px;
+    cursor: pointer;
+    background-color: #d43003;
+    text-align: center;
+    line-height: 24px;
+}
+span:hover {
+    background-color: #b12802;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.line {
+    padding-top: 56px;
+    display: block;
+    margin: 0 auto;
+}
+
+.team-button {
+    border: none;
+    border-radius: 10px ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    background-color:#191919;
+
+}
+
+.team-button:hover {
+    background-color:#ff8766;
+    cursor: pointer;
+}
+
+.user-icon-linkedin {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    gap: 5px;
+}
+
+.img-button-linkedin {
+    width: 20px;
+}

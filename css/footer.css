@@ -1,0 +1,25 @@
+
+
+.rodape {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+    display: absolute;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #191919;
+    
+    }
+
+  .rodape-1 {
+    margin-top: 100px;
+  }
+
+.rodape-1 .rodape-2 {
+  padding:  15px 120px 15px 120px;
+  display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+}

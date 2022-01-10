@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+.form-2 {
+  margin-bottom: 130px;
+}
+
+.form-2 img {
+    position: absolute;
+    width: 30%;
+    margin-left: 14%;
+}
+
+select {
+    text-align: center;
+}
+
+.form-2 form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 3%;
+}
+
+.form-2 form label {
+    font-family: Montserrat;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    color: #F15025;
+    text-shadow: 1px 1px 4px #fff;
+}
+
+
+.form-2 form input {
+ 
+  font-family: Montserrat;
+  background: #ffffff;
+  width: 600px;
+   height: 90px;
+    padding: 0 0.9rem;
+    margin-top: 2rem;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 3px solid rgba(241, 81, 37, 0.204);
+}
+
+.form-2 label textarea {
+  
+  font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    width: 600px;
+    height: 300px;
+    padding: 1em 0.9rem;
+    margin-top: 2rem;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 3px solid rgba(241, 81, 37, 0.204);
+}
+
+.form-2 button {
+  font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    padding: 17px;
+    cursor: pointer;  
+    margin-top: 2rem;
+    border-radius: 17px;
+    background: #ffffff;
+    color: #F15025;
+    font-size: 30px;
+    border:2px solid rgba(241, 81, 37, 0.204);
+}
